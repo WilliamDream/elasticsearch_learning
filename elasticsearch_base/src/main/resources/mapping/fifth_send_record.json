@@ -1,0 +1,75 @@
+{
+  "properties":{
+    "id": {
+      "type": "long"
+    },
+    "msg_id": {
+      "type": "long"
+    },
+    "app_id": {
+      "type": "long"
+    },
+    "institution_id": {
+      "type": "long"
+    },
+    "phone_number": {
+      "type": "text",
+      "analyzer": "standard"
+    },
+    "template_code": {
+      "type": "keyword"
+    },
+    "template_name": {
+      "type": "text",
+      "analyzer": "standard"
+    },
+    "isp_template_code": {
+      "type": "keyword"
+    },
+    "isp_code": {
+      "type": "integer"
+    },
+    "channel_id": {
+      "type": "integer"
+    },
+    "channel_code": {
+      "type": "text",
+      "analyzer": "standard"
+    },
+    "send_time": {
+      "type": "date"
+    },
+    "content": {
+      "type": "text",
+      "analyzer": "ik_max_word"
+    },
+    "status": {
+      "type": "keyword"
+    },
+    "fail_reason": {
+      "type": "text"
+    },
+    "update_time": {
+      "type": "date"
+    },
+    "receipt_time": {
+      "type": "date"
+    },
+    "task_Id": {
+      "type": "keyword"
+    },
+    "platform_chatbot_id": {
+      "type": "long"
+    },
+    "chatbot_id": {
+      "type": "text",
+      "analyzer": "standard"
+    },
+    "conversation_id": {
+      "type": "keyword"
+    },
+    "contribution_id": {
+      "type": "keyword"
+    }
+  }
+}
